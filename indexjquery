@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.div {
+background-color:red;
+height:300px;
+width:300px;
+position:absolute;
+ }
+</style>
+
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+
+
+<script> 
+$(document).ready(() => {
+
+$('button').on('click', () => {
+
+
+$('div').animate({
+               'left': '330px',
+               'opacity': '0.3', 
+			   'height': '200px',
+			   'width': '200px',
+			   'color': 'pink',		
+			   'margin-left': '300px',
+			   'margin-top': '300px',
+    			 'border-radius': '100px' }, 4500)   																			    																		
+							})     })   
+                               
+</script> 
+
+
+</head>
+
+<body>
+
+<button> aperte para ver a animação acontecer </button>
+
+
+<div class="div"> </div>
+
+</body>
+
+</html>
